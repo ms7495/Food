@@ -16,7 +16,6 @@ const Recipe = ({recipe}) => {
             <h2>{recipe.title}</h2>
             <button onClick={() => setShow(!show)}>Recipe</button>
             {show && <RecipeDetails sum={url}></RecipeDetails>}
-
         </div>
     )
 }
